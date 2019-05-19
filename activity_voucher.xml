@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Voucher">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="145dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="62dp"
+        android:backgroundTint="#E6007F"
+        android:text="Enter The Voucher Here"
+        android:textColor="#FFF"
+        tools:layout_editor_absoluteX="92dp"
+        tools:layout_editor_absoluteY="70dp"
+        android:textSize="23dp"/>
+
+    <EditText
+        android:id="@+id/voucher_input"
+        android:layout_width="116dp"
+        android:layout_height="57dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="293dp"
+        android:hint="Voucher"
+        android:textSize="25dp"/>
+
+    <Button
+        android:id="@+id/submit_voucher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="64dp"
+        android:text="Let's begin"
+        android:backgroundTint="#95d6006b"
+        android:textSize="25dp"/>
+
+</RelativeLayout>

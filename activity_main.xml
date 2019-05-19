@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FFFF">
+
+   <Button
+       android:id="@+id/btn_bgn"
+       android:layout_width="150dp"
+       android:layout_height="60dp"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="44dp"
+       android:background="#05b6ec"
+       android:text="Let's Begin"
+       android:textColor="#FFFF"
+       android:textSize="17dp" />
+
+   <TextView
+       android:id="@+id/wlc1"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="216dp"
+       android:fontFamily="arial"
+       android:text="Interactive presentations and meetings"
+       android:textColor="#E6007F"
+       android:textSize="18dp"
+       android:textStyle="bold"
+        />
+
+   <TextView
+       android:id="@+id/textView3"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="223dp"
+       android:text="Realtime Q and A"
+       android:textColor="#000"
+       android:textSize="15dp" />
+
+   <TextView
+       android:id="@+id/textView4"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:layout_alignParentBottom="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginBottom="181dp"
+       android:text="Realtime voting"
+       android:textColor="#000"
+       android:textSize="15dp" />
+
+   <ImageView
+       android:id="@+id/imageView"
+       android:layout_width="326dp"
+       android:layout_height="137dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"
+       android:layout_marginTop="51dp"
+       app:srcCompat="@drawable/logo" />
+
+</RelativeLayout>
